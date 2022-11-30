@@ -1,0 +1,44 @@
+.inputBoxes__head {
+  background-color: darkblue;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border: 2px solid antiquewhite;
+}
+
+.inputBox__main label {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: block;
+  color: #ccc;
+}
+
+.inputBox__main input {
+  font: inherit;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  width: 40rem;
+  max-width: 100%;
+  color: #ccc;
+}
+
+.inputBox__actions {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+.inputBox__actions:hover,
+.inputBox__actions:active {
+  background-color: darkgray;
+  border-color: darkgray;
+}
