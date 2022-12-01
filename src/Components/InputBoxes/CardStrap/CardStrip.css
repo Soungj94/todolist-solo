@@ -14,3 +14,10 @@
   display: flex;
   justify-content: center;
 }
+
+button {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+}
