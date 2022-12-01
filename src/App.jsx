@@ -20,7 +20,7 @@ const App = () => {
       <h1 className="colorN">Todo-List☑</h1>
       <InputBoxes todos={todos} setTodos={setTodos} />
       <section className="cardArr">
-        work,
+        work
         {todos.map((el) => {
           if (el.isDone === false)
             return (
